@@ -1,0 +1,134 @@
+*{
+    background-color: powderblue;
+    margin: 0;
+    /* background: linear-gradient(to top right, #ffffff, powderblue); */
+    
+}
+
+.outer-div{
+    /* background: linear-gradient(to top right, #ffffff, powderblue); */
+    margin-top: 0px;
+}
+.nav-bar{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 4px;
+    background-color: black;
+    color: #ffffff;
+    position: sticky;
+    top:0;
+    padding: 18px;
+    position: sticky;
+
+}
+
+.left , .right{
+    background-color: black;
+    display: inline;
+}
+.right{
+    
+    float: right;
+}
+a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+}
+
+a:hover{
+    color: powderblue;
+}
+
+.table-div, .form-div{
+    width: 50%;
+    background-color: rgb(242, 244, 245);
+    margin: 3rem 20rem;
+    padding: 1rem;
+    box-shadow: 3px 3px rgb(212, 212, 209);
+    z-index: 2;
+    border-radius: 10px;
+
+}
+table{
+    background-color: rgb(242, 244, 245);
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    z-index: 2;
+}
+thead{
+    text-align: left;
+    
+}
+table,th,td{
+    border: 1px solid rgba(218, 209, 209, 0.952);
+    border-collapse: collapse;
+    background-color: rgb(242, 244, 245);
+    padding: 0.3rem;
+}
+h2{
+    background-color: rgb(242, 244, 245);
+    color: black;
+    text-shadow: 2px 2px rgb(160, 152, 152);
+}
+
+.book-title{
+    background-color: rgb(242, 244, 245);
+    color:blue;
+    text-decoration: underline;
+    padding: 0
+}
+
+.book-title:hover{
+    color: blue;
+}
+
+.form{
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+p, label, input, button, form{
+    /* margin: 0.2rem; */
+    background-color: rgb(242, 244, 245);
+    width: 100%;
+}
+
+input{
+    height: 18px;
+}
+
+button{
+    background-color: black;
+    color: #ffffff;
+    margin-left: 1.5px;
+    cursor: pointer;
+}
+.stars{
+    position: fixed;
+    height: 250px;
+    width: 250px;
+    z-index: 1;
+    border-radius: 125px;
+    background-color: #ffffff;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), white);
+}
+
+.s1{
+    top:15rem;
+    left :1rem;
+}
+.s2{
+    top:26rem;
+    right: 1.5rem;
+}
+
+.s3{
+    top:7rem;
+    right: -1.5rem;
+}

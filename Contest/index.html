@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Library Management System</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="left">
+            <a href="#" class="nav-links">Library System</a>
+        </div>
+        <div class="right">
+            <a href="#books" class="nav-links">Books</a>
+            <a href="#register" class="nav-links">Register</a>
+            <a href="#" class="nav-links"> Contact Us</a>
+            <a href="#" class="nav-links"> Logout</a>
+        </div>
+    </nav>
+    <div class="outer-div">
+        <div class="table-div">
+            <h2 id="books">Books</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Id</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">1</td>
+                        <td><a href="#" class="book-title">Book Title 1</a></td>
+                        <td rowspan="4">Author Title 1</td>
+                        <td rowspan="4">Genre 1</td>
+                        <td rowspan="4">Available</td>
+                    </tr>
+                    <tr><td>Publication Date: 2000</td></tr>
+                    <tr><td>Page Count: 250</td></tr>
+                    <tr><td>ISBN: 123-4567890123</td></tr>
+                    <tr>
+                        <td rowspan="4">2</td>
+                        <td><a href="#" class="book-title">Book Title 2</a></td>
+                        <td rowspan="4">Author Title 2</td>
+                        <td rowspan="4">Genre 2</td>
+                        <td rowspan="4">Not Available</td>
+                    </tr>
+                    <tr><td>Publication Date: 2005</td></tr>
+                    <tr><td>Page Count: 300</td></tr>
+                    <tr><td>ISBN: 123-4567890456</td></tr>
+                    <tr>
+                        <td rowspan="4">3</td>
+                        <td><a href="#" class="book-title">Book Title 3</a></td>
+                        <td rowspan="4">Author Title 3</td>
+                        <td rowspan="4">Genre 3</td>
+                        <td rowspan="4">Available</td>
+                    </tr>
+                    <tr><td>Publication Date: 2010</td></tr>
+                    <tr><td>Page Count: 350</td></tr>
+                    <tr><td>ISBN: 123-4567890789</td></tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="form-div">
+            <h2 id="register">Register</h2>
+            <form class="form">
+                <p>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" required>
+                </p><br>
+                <p>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" required>
+                </p><br>
+                <p>
+                    <label for="dob">Date Of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required>
+                </p><br>
+                <p>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" min="5" max="100" name="age" required>
+                </p><br>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p><br>
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p><br>
+                <p>
+                    <label for="cpassword">Confirm Password:</label><br>
+                    <input type="password" id="cpassword" name="cpassword" required>
+                </p><br>
+
+                <p>
+                    <button id="button" type="submit">Register</button>
+                </p>
+            </form>
+    
+        </div>
+        <div class="stars s1"></div>
+        <div class="stars s2"></div>
+        <div class="stars s3"></div>
+    </div>
+    <!-- <script>
+
+        var password = document.getElementById("password");
+        var cpassword = document.getElementById("cpassword");
+        var button = document.getElementById("button");
+    
+    
+        if(password===cpassword){
+            button.disabled=false;
+        }
+    </script> -->
+</body>
+</html>
